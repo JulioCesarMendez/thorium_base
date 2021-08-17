@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--                                                                       -->
+<!--    Copyright (C) 2020-2030 Thorium Corp FP <help@thoriumcorp.website  -->
+<!--                                                                       -->
+
+<odoo>
+    <menuitem
+        id="thoriumcorp_root"
+        name="Thorium Corp FP"
+        sequence="10"
+        web_icon="thoriumcorp_base,static/description/icon.png"
+        groups="thoriumcorp_base.group_thoriumcorp_user"
+    />
+    <!-- ,social.group_soc_resp_reg,social.group_soc_direct -->
+    <menuitem
+        id="thoriumcorp_patient_root"
+        name="Patients"
+        parent="thoriumcorp_root"
+        sequence="10"
+        groups="thoriumcorp_base.group_thoriumcorp_user"
+    />
+    <menuitem
+        id="thoriumcorp_patient"
+        name="Patients"
+        parent="thoriumcorp_patient_root"
+        sequence="10"
+        action="thoriumcorp_patient_action"
+        groups="thoriumcorp_base.group_thoriumcorp_user"
+    />
+    <menuitem
+        id="thoriumcorp_root_sub"
+        name="Configuration"
+        parent="thoriumcorp_root"
+        sequence="100"
+        groups="thoriumcorp_base.group_thoriumcorp_user"
+    />
+</odoo>

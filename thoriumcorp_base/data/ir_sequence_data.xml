@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--                                                                       -->
+<!--    Copyright (C) 2020-2030 Thorium Corp FP <help@thoriumcorp.website  -->
+<!--                                                                       -->
+
+<odoo noupdate="1">
+    <record id="seq_thoriumcorp_patient" model="ir.sequence">
+        <field name="name">Patient</field>
+        <field name="code">thoriumcorp.patient</field>
+        <field name="prefix">PA</field>
+        <field name="padding">6</field>
+    </record>
+</odoo>

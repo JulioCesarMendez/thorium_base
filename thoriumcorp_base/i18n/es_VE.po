@@ -1,0 +1,1208 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * thoriumcorp_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: Julio César Méndez <mendezjcx@thoriumcorp.website>\n"
+"POT-Creation-Date: 2020-10-12 12:00+0000\n"
+"PO-Revision-Date: 2020-10-12 12:00+0000\n"
+"Last-Translator: Julio César Méndez <mendezjcx@thoriumcorp.website>, 2020\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: thoriumcorp_base
+#: code:addons/thoriumcorp_base/models/thoriumcorp_patient.py:0
+#, python-format
+msgid " (deceased)"
+msgstr " (fallecido)"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "(edit)"
+msgstr "(editar)"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.view_res_partner_form
+msgid "<span class=\"o_stat_text\">Paciente(s)</span>"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_kanban
+msgid "<strong>DOB:</strong>"
+msgstr "<strong>F.N.:</strong>"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_needaction
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_needaction
+msgid "Action Needed"
+msgstr "Requiere acción"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__active
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__active_lang_count
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__activity_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__activity_exception_decoration
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__activity_state
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__additional_info
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__additional_info
+msgid "Additional info"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Address"
+msgstr "Dirección"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__type
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__type
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_partner__type
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_users__type
+msgid "Address Type"
+msgstr "Tipo de dirección"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__age
+msgid "Age"
+msgstr "Edad"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__age
+msgid "Age (computed)"
+msgstr "Edad (calculada)"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__lang
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:res.groups,name:thoriumcorp_base.group_thoriumcorp_assistant
+msgid "Assistant"
+msgstr "Asistente"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_attachment_count
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__bank_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__bank_ids
+msgid "Banks"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__is_blacklisted
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__is_blacklisted
+msgid "Blacklist"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_bounce
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_bounce
+msgid "Bounce"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Categories"
+msgstr "Categorías"
+
+#. module: thoriumcorp_base
+#: model:res.groups,name:thoriumcorp_base.group_thoriumcorp_center_manager
+msgid "Center Manager"
+msgstr "Gerente de centro"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__channel_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__is_company
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__employee
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__city
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__city
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "City"
+msgstr "Ciudad"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__color
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__color
+msgid "Color Index"
+msgstr "Índice de color"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__commercial_partner_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__alias
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__alias
+#: model:ir.model.fields,help:thoriumcorp.field_res_partner__alias
+#: model:ir.model.fields,help:thoriumcorp.field_res_users__alias
+msgid "Common, not official, name"
+msgstr "Nombre común, no oficial"
+
+#. module: thoriumcorp_base
+#: model:ir.ui.menu,name:thoriumcorp_base.thoriumcorp_root
+msgid "Community Medical"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__company_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__company_id
+msgid "Company"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:res.groups,name:thoriumcorp_base.group_thoriumcorp_manager
+msgid "Company Manager"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__commercial_company_name
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__company_type
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__partner_gid
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__partner_gid
+msgid "Company database ID"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__contact_address
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__contact_address
+msgid "Complete Address"
+msgstr "Dirección completa"
+
+#. module: thoriumcorp_base
+#: model:ir.ui.menu,name:thoriumcorp_base.thoriumcorp_root_sub
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: thoriumcorp_base
+#: model:ir.model,name:thoriumcorp_base.model_res_partner
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__child_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__child_ids
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Contact book"
+msgstr "Agenda"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Contacts / Addresses"
+msgstr "Contactos / Direcciones"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__count_patients
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__count_patients
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_partner__count_patients
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_users__count_patients
+msgid "Count Patients"
+msgstr "Cantidad de pacientes"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__message_bounce
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Country"
+msgstr "País"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__create_uid
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__create_date
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__credit_limit
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__birthdate_date
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__birthdate_date
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_partner__birthdate_date
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_users__birthdate_date
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_kanban
+msgid "DOB"
+msgstr "F.N."
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__date
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_search
+msgid "Deactivated"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__date_death
+msgid "Deceased date"
+msgstr "Fecha de muerte"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__display_name
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__thoriumcorp_patient__marital_status__d
+msgid "Divorced"
+msgstr "Divorc."
+
+#. module: thoriumcorp_base
+#: model:res.groups,name:thoriumcorp_base.group_thoriumcorp_doctor
+msgid "Doctor"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__partner_share
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__email
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__email
+msgid "Email"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__employee
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__employee
+msgid "Employee"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__state_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__state_id
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__state_id
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__state_id
+msgid "Estado"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__res_partner__gender__female
+msgid "Female"
+msgstr "Femenino"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__phone_sanitized
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_follower_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_channel_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_partner_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__email_formatted
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__email_formatted
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__gender
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__gender
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_partner__gender
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_users__gender
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Gender"
+msgstr "Género"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_form
+msgid "General"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__partner_latitude
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__partner_longitude
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__id
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_tree
+msgid "ID"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__im_status
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__activity_exception_icon
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__activity_exception_icon
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__identification_code
+msgid "Identificación del paciente provista por el centro de salud"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__identification_code
+msgid "Identificación interna"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__vat
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__vat
+msgid "Identification Number"
+msgstr "Número de Id."
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__vat
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__vat
+msgid "Identification Number for selected type"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__message_needaction
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__message_unread
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__message_needaction
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__message_has_error
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__message_has_sms_error
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__message_has_error
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__is_blacklisted
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__phone_blacklisted
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__is_blacklisted
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__phone_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__image_1920
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__image_1920
+msgid "Image"
+msgstr "Imagen"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__image_1024
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__image_128
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__image_256
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__image_512
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__industry_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Informacion de contacto"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__general_info
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Información General"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Internal Note..."
+msgstr "Notas internas"
+
+#. module: thoriumcorp_base
+#: code:addons/thoriumcorp_base/models/thoriumcorp_patient.py:0
+#, python-format
+msgid "Invalid operator: %s"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: code:addons/thoriumcorp_base/models/thoriumcorp_patient.py:0
+#, python-format
+msgid "Invalid selection - Only a `Female` may be pregnant."
+msgstr "Selección no válida. Aplica sólo a mujeres."
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__type
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__type
+#: model:ir.model.fields,help:thoriumcorp.field_res_partner__type
+#: model:ir.model.fields,help:thoriumcorp.field_res_users__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr ""
+"Las direcciones de facturación y de entrega son usadas en órdenes de venta. "
+"Las direcciones privadas sólo son visibles por usuarios autorizados."
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__is_deceased
+msgid "Is Deceased"
+msgstr "Falleció"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_is_follower
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__is_pregnant
+msgid "Is Pregnant"
+msgstr "Está embarazada"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__is_company
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__function
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__function
+msgid "Job Position"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__lang
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity____last_update
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__write_uid
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__write_date
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_main_attachment_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__res_partner__gender__male
+msgid "Male"
+msgstr "Masculino"
+
+#. module: thoriumcorp_base
+#. openerp-web
+#: code:addons/thoriumcorp_base/static/src/js/thoriumcorp_base.tour.js:0
+#, python-format
+msgid "Manage electronic thoriumcorp records using the <b>Community Medical</b> app."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__marital_status
+msgid "Marital Status"
+msgstr "Estado civil"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__thoriumcorp_patient__marital_status__m
+msgid "Married"
+msgstr "Casad."
+
+#. module: thoriumcorp_base
+#: model:ir.model,name:thoriumcorp_base.model_thoriumcorp_abstract_entity
+msgid "Medical Abstract Entity"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_search
+msgid "Medical Entities"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model,name:thoriumcorp_base.model_thoriumcorp_patient
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__res_partner__type__thoriumcorp_patient
+msgid "Medical Patient"
+msgstr "Paciente médico"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_tree
+msgid "Medical entity"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_form
+msgid "Medico"
+msgstr "Médica"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_has_error
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__mobile
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__mobile
+msgid "Mobile"
+msgstr "Celular"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Mobile:"
+msgstr "Celular:"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__name
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__name
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__activity_date_deadline
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__activity_summary
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__activity_type_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__alias
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__alias
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_partner__alias
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_users__alias
+msgid "Nickname"
+msgstr "Apodo"
+
+#. module: thoriumcorp_base
+#: code:addons/thoriumcorp_base/models/thoriumcorp_patient.py:0
+#, python-format
+msgid "No DoB"
+msgstr "Sin F.N."
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Nombre de contacto"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__company_name
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__company_name
+msgid "Nombre de la empresa/institución"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__email_normalized
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Nota interna..."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Notas"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__comment
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__comment
+msgid "Notes"
+msgstr "Notas"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_needaction_counter
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_has_error_counter
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__message_needaction_counter
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__message_has_error_counter
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__message_unread_counter
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__res_partner__gender__other
+msgid "Other"
+msgstr "Otro"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__ref
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__ref
+msgid "PUID"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__patient_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__patient_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_partner__patient_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_users__patient_ids
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_form
+msgid "Paciente"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.actions.act_window,name:thoriumcorp_base.thoriumcorp_patient_action
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_kanban
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_search
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_tree
+msgid "Pacientes"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_search
+msgid "Parent"
+msgstr "Padre/Madre"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__parent_name
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__parent_name
+msgid "Parent name"
+msgstr "Nombre de padre/madre"
+
+#. module: thoriumcorp_base
+#: code:addons/thoriumcorp_base/models/res_partner.py:0
+#, python-format
+msgid "Partners cannot be born in the future."
+msgstr "No puede haber nacido en el futuro."
+
+#. module: thoriumcorp_base
+#: model:ir.ui.menu,name:thoriumcorp_base.thoriumcorp_patient
+#: model:ir.ui.menu,name:thoriumcorp_base.thoriumcorp_patient_root
+msgid "Patients"
+msgstr "Pacientes"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__country_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__country_id
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__country_id
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__country_id
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "País"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__ref
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__ref
+msgid "Person Unique Identifier"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_form
+msgid "Peso"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__phone
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__phone_blacklisted
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__phone_blacklisted
+msgid "Phone Blacklisted"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__property_product_pricelist
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__property_product_pricelist
+msgid "Pricelist"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__parent_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__partner_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__partner_id
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_search
+msgid "Related Partner"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_form
+msgid "Representante legal"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__activity_user_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_has_sms_error
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__user_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__phone_sanitized
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__self
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__self
+msgid "Self"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__thoriumcorp_patient__marital_status__x
+msgid "Separated"
+msgstr "Separad."
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__partner_share
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__signup_expiration
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__signup_expiration
+msgid "Signup Expiration"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__signup_token
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__signup_token
+msgid "Signup Token"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__signup_type
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__signup_valid
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__signup_valid
+msgid "Signup Token is Valid"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__signup_url
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__signup_url
+msgid "Signup URL"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__thoriumcorp_patient__marital_status__s
+msgid "Single"
+msgstr "Solter."
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "State"
+msgstr "Estado"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__activity_state
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__street
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__street
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Street"
+msgstr "Calle"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Street 2"
+msgstr "Casa/Edificio"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Street 2..."
+msgstr "Casa/Edificio"
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "Street..."
+msgstr "Calle"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__street2
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__street2
+msgid "Street2"
+msgstr "Casa/Edificio"
+
+#. module: thoriumcorp_base
+#: model:res.groups,name:thoriumcorp_base.group_thoriumcorp_configurator
+msgid "System Administrator"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_search
+msgid "Tag"
+msgstr "Etiqueta"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__category_id
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__category_id
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__user_id
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__email_normalized
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__property_product_pricelist
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__tz
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__tz_offset
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__title
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__title
+msgid "Title"
+msgstr "Título"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__activity_exception_decoration
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_patient_view_form
+msgid "Unidad de medida"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_unread
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__message_unread_counter
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:res.groups,name:thoriumcorp_base.group_thoriumcorp_user
+msgid "User"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__user_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__website
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__website
+msgid "Website Link"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__website_message_ids
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__website_message_ids
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__weight
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__weight
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_partner__weight
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_users__weight
+msgid "Weight"
+msgstr "Peso"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__weight_uom
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__weight_uom
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_partner__weight_uom
+#: model:ir.model.fields,field_description:thoriumcorp.field_res_users__weight_uom
+msgid "Weight unit"
+msgstr "Unidad de peso"
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_abstract_entity__tz
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields.selection,name:thoriumcorp_base.selection__thoriumcorp_patient__marital_status__w
+msgid "Widow(er)"
+msgstr "Viud."
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "ZIP"
+msgstr "C.P."
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_abstract_entity__zip
+#: model:ir.model.fields,field_description:thoriumcorp.field_thoriumcorp_patient__zip
+msgid "Zip"
+msgstr "C.P."
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "e.g. Mr."
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model_terms:ir.ui.view,arch_db:thoriumcorp_base.thoriumcorp_abstract_entity_view_form
+msgid "e.g. Sales Director"
+msgstr ""
+
+#. module: thoriumcorp_base
+#: model:ir.model.fields,help:thoriumcorp.field_thoriumcorp_patient__is_pregnant
+msgid "¿Esta embarazada?"
+msgstr ""

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ir_module_category_thoriumcorp" model="ir.module.category">
+        <field name="name">Community Medical</field>
+        <field name="sequence">10</field>
+    </record>
+    <record id="group_thoriumcorp_user" model="res.groups">
+        <field name="name">User</field>
+        <field name="category_id" ref="ir_module_category_thoriumcorp"/>
+        <field name="users" eval="[(4, ref('base.user_root'))]"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+    <record id="group_thoriumcorp_assistant" model="res.groups">
+        <field name="name">Assistant</field>
+        <field name="category_id" ref="ir_module_category_thoriumcorp"/>
+        <field name="implied_ids" eval="[(4, ref('group_thoriumcorp_user'))]"/>
+    </record>
+    <record id="group_thoriumcorp_doctor" model="res.groups">
+        <field name="name">Doctor</field>
+        <field name="category_id" ref="ir_module_category_thoriumcorp"/>
+        <field name="implied_ids" eval="[(4, ref('group_thoriumcorp_assistant'))]"/>
+    </record>
+    <record id="group_thoriumcorp_center_manager" model="res.groups">
+        <field name="name">Center Manager</field>
+        <field name="category_id" ref="ir_module_category_thoriumcorp"/>
+        <field name="implied_ids" eval="[(4, ref('group_thoriumcorp_doctor'))]"/>
+    </record>
+    <record id="group_thoriumcorp_manager" model="res.groups">
+        <field name="name">Company Manager</field>
+        <field name="category_id" ref="ir_module_category_thoriumcorp"/>
+        <field name="implied_ids" eval="[(4, ref('group_thoriumcorp_center_manager'))]"/>
+    </record>
+    <record id="group_thoriumcorp_configurator" model="res.groups">
+        <field name="name">System Administrator</field>
+        <field name="category_id" ref="ir_module_category_thoriumcorp"/>
+        <field name="implied_ids" eval="[(4, ref('group_thoriumcorp_manager'))]"/>
+    </record>
+    <record id="base.group_erp_manager" model="res.groups">
+        <field name="implied_ids" eval="[(4, ref('group_thoriumcorp_configurator'))]"/>
+    </record>
+</odoo>
